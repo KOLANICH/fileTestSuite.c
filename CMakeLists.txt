@@ -61,6 +61,7 @@ add_subdirectory("${testGen_dir}")
 
 
 set(CPACK_PACKAGE_HOMEPAGE_URL "https://codeberg.org/fileTestSuite/fileTestSuite.c")
+message(STATUS "We have moved from M$ GitHub to ${CPACK_PACKAGE_HOMEPAGE_URL}, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo . ")
 set(CPACK_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR}")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_MAINTAINER}")
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/UNLICENSE")
